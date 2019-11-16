@@ -1,0 +1,178 @@
+
+Rakesh Ranjan
+
+Professional Summary
+
+Motivated Senior Software Engineer highly effective at developing new programs and fixing problems with existing systems. Proficient in Java and Agile/SCRUM methodology.
+
+Work History
+
+October 2018 to Current
+Oracle India Private Limited Hyderabad, Telengana
+Senior Software Engineer    
+Currently working with Oracle as senior software engineer for their social-platform.
+Social Cloud provides a platform , by which customer , based on some keyword can get statistics over social network.
+Projects
+Solr Manager (October-2018 to January-2019)
+
+Does scheduled maintenance activity for solr written in scala
+Provides CLI for the maintenance activity
+
+Use case of application
+
+In a configured time it Create / Delete Collections based on dates(Monthly/Weekly) and languages
+In a configured time it Create / Delete Query core(For Distributed Query) and update aliases
+In a configured time it Checks the health of shards of each collections , and sents alerts if any one is unhealthy
+Solr Manager also provided CLI for above operations
+In the application we maintain graphite metric , and set threshold to alert if any failure is there
+
+Technologies Used : SolrJ (provided API to access Solr),Scala,Zookeeper,Graphite,Chef(For Configurations update and deployment)
+Compliance Archiver (January-2019 to February -2019)
+
+Compliance archiver is a module developed for backfill operation
+It will write compliance JSON file to file system or to HDFS and from there Compliance Reader will pass down to other pipeline
+Alert if any failure
+
+Technologies used : Scala, Kafka Batch Worker[Developed in house , used to consume messages in batch , and in successful processing will commit the offset]
+OCI Migration (March-2019 to May-2019)
+
+During this period we were moving from one infra to other along with important changes in solr like solr version upgrade required data type changes , way to query solr
+Writing chef cookbooks for the applications for deployment
+
+Technologies/Tools used : Java , Chef , Solr , Shell Scripting
+Message Tracker (April-2019 to May-2019)
+
+Message Tracker is dropwizard based rest application which will track till what level in system did messages went
+Used internally by support team , testing team
+
+Technologies used : DropWizard , Java , Guice
+Rules Engine (May-2019 to Current)
+
+Rules Engine alerts customer based on certain parameters it selects like alert if number of messages is greater than the provided value
+Alert if specified amount of +ve/-ve sentiments crosses threashold
+
+Techologies used : Java , Kafka , Flink (It will process data in real time in a specfied window)
+Spark Apps Migration to Flink(August-2019 to September -2019)
+
+Spark app in realtime writes data to HBASE
+To make data processing towards realtime , migrated spark apps to Flink
+
+Techologies used : Java , Spark , Flink , Hbase
+September 2016 to September 2018
+Netcracker Technologies Hyderabad, Telangana
+Senior Software Engineer    
+Worked in portal development based on TOMS API.
+Worked on creating wrapper on top of Rating and billing Manager(RBM) and exposed rest API to be used by other microservice
+Key Area :Java, Spring , JavaScript, ORACLE 11g,ReactJS,Rest Webservice
+Projects
+WindStream Improvement : (October 2016-Jan 2017)
+Use Case :
+
+Create Rainlet Dashboard and widgets according to specification
+Integrate BSS portal in NetCracker TOMS
+
+Technologies used : Java,Spring,Liferay(6.1),Javascript,JSP
+BSS DemoBox Development :(Jan 2017-March 2017)
+Use Case:
+
+Designing and development of the product, writing JavaScript for the UI functionality
+Intergarted OAuth 2.0 in BSS portal according to new TOMS
+Created Convert and Migrate Bucket Functionality based on new Requirement
+
+Tools/Technologies used : Java,Spring,Liferay(6.1),Javascript,JSP,oAuth2
+BSS Portal development :(March 2017-July 2017)
+Use case was to develop customised portal based on customer requirement .
+Based on requirement we were asked to design pages and change backend based on requirement .
+
+Create Trouble Ticket Functionality UI
+Sales Order Listing ,Transaction Listing,Summary Page Creation page
+Created API for Service issue of a particular service in TOMS
+
+Tools/Technologies used : Liferay(6.1),Java,Spring,JavaScript,JQuery,JqxGrid,Bootstrap
+Digital Market Place , Product Development(August 2017-September 2018)
+Digital Market place application is a microservice which talks to rbm by plsql procedure and create rating , whose billing will be done by billing management .
+we expose API for other microservices ,
+Technologies : Spring Boot,Spring MVC,Spring JDBC, oAuth2,Pl/SQL
+June 2013 to September 2016
+Amdocs Pune, Maharashtra
+Software Developer    
+Worked as a senior software developer , in OSS suite , BSS Suite , and tools development for infrastructure team .
+Key Areas: Java, JavaScript, Jenkins, Oracle11g, XPI –Cross Portfolio Installer
+Amdocs Network Navigator On the Go(June 2013-November-2013)
+ANN-OOTG is a product of Amdocs which lies over Amdocs Cramer OSS suite.
+
+It provides the inventory of all networking components by which telecom operator can decide what and where to place their components
+Worked as junior developer .
+Technologies used : JavaScript, BackBone.js(very basic), Bootstrap
+DataBase Enhancement of Jenkins Plugins(December 2014 -March 2014) :
+Entire status of plugin (i.e. State ,Failure reasons etc) was to be saved to the DB
+Activities:
+
+This involves Requirement Gathering , development and Testing
+End to End Design of DB Structure, DB Queue , Development , Testing ,Delivery and Support
+
+Key Areas: Java, Maven,Oracle
+Amdocs Monitoring and Control (April 2014- March 2015 ):
+This Product of Amdocs provided a framework over which one can Monitor ,control their process on server .
+Used in almost all the products of Amdocs.
+
+Activities:
+
+Was responsible for Enahancement of existing module and Deisgn and Development of new Modules in the product
+Design and developed Proprietary Enablement in Different locale of the product
+Design and developed Global Logon feature of the product
+Bug Fixing and Support
+
+Key Areas: Java,Javascript,JSP, Maven,Oracle
+Ordering Management System (April 2015,Sept 2016) :
+Description:
+This is a CRM product of which is used in the BSS layer of telecom field .
+Activities:
+
+Was responsible for Enahancement of existing module and Deisgn and Development of new Modules in the product
+Bug Fixing and Support
+
+Key Area : Java,Spring
+
+Education
+
+NIT Durgapur Durgapur
+MCA Computer Application 
+
+Graduated in Top 10% of Class
+CGPA : 8.2
+
+Patna College,Patna University Patna,Bihar
+Bachelor of Computer Applications Computer Application 
+2nd in class.
+Percentage : 83.33%  
+College of Commerce Patna
+12th Physics,Chemistry,Mathematics,English,Hindi 
+Percentage : 60.66%  
+B.D. Public School Patna,Bihar
+10th  
+
+Flat-104,Leela House,SriRam Nagar Colony, Block-C,Kondapur
+HYDERABAD, Hanuman Temple 500084
+Phone: 865 736 8884
+E-Mail: ranjanra.india@gmail.com
+
+Skills
+
+Java 
+
+Spring 
+
+Scala 
+
+Spring 
+
+JavaScript 
+
+Zookeeper 
+
+Kafka 
+
+Hbase 
+
+Python 
